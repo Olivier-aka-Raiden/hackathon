@@ -47,7 +47,7 @@ class ChallengeView extends Component {
   /**
     * suggestions
     */
-  rendersuggestions = (suggestions) => {
+  renderSuggestions = (suggestions) => {
     const jsx = [];
     let iterator = 1;
 
