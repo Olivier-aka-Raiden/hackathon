@@ -1,0 +1,185 @@
+{
+  "users": {
+  },
+  "favourites": {
+  },
+  "challengeTypes": [
+    {
+      "id": 1,
+      "title": "personal"
+    },
+    {
+      "id": 2,
+      "title": "Family & friends"
+    }
+  ],
+  "challengeList" : [
+    {
+      "id": 1,
+      "slug": "Quit-smoking-challenge",
+      "title": "Arrêter de fumer",
+      "body": "Un challenge qui vous propose de mettre l'argent que vous ne dépensez pas en cigarettes de côté pour ensuite les utiliser et faire quelquechose que vous avez toujours rêvé!",
+      "author": "Société Générale",
+      "category": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2Fquitting-smoking.jpg?alt=media&token=a31b8b7c-3c50-48ce-bf91-d5a6947e1e53",
+      "suggestions": [
+        "économiser 1 euro par cigarette non fumée",
+        "économiser le nombre de paquets consommés par jours",
+        "débourser à votre ami ou compagne une pénalité à chaque cigarette fumée"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "no-fast-food",
+      "title": "Non au fast food!",
+      "body": "Mangez moins et mangez mieux avec ce challenge qui vous récompense quand vous ne cédez pas à la tentation des fasts foods",
+      "author": "Société générale",
+      "category": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2Fno-fast-food.jpg?alt=media&token=6c38cfca-01d9-45b7-9935-75a6359bee88",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "birthday-challenge",
+      "title": "Cadeaux d'anniversaire",
+      "body": "Economisez pour vous faire plaisir ou faire plaisir à un proche grâce à ce challenge qui s'occupera de prévoir cet évènement couteux à l'avance!",
+      "author": "Société Générale",
+      "category": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2FbirthdayGiftChallenge.jpeg?alt=media&token=e71370ac-de18-40ae-95e4-3ebfdfa83fc4",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "travel-challenge",
+      "title": "Partir à l'aventure",
+      "body": "Grâce à ce challenge, vous allez pouvoir économiser pour voyager et vivre de nouvelles aventures",
+      "author": "Société Générale",
+      "category": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2FTravelChallenge.jpg?alt=media&token=e1c9a8b7-58fe-4f9c-bee4-eabf77350035",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "healthy-challenge",
+      "title": "Challenge santé",
+      "body": "Quoi de mieux que d'être récompensé pour ses efforts? Ce challenge vous propose de vous encourager à prendre soin de vous.",
+      "author": "Société Générale",
+      "category": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2FhealthyChallenge.png?alt=media&token=c4ddfd21-b60e-4346-8edb-2c2aefcb79c6",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "christmas-challenge",
+      "title": "Challenge de noël",
+      "body": "Noël est un évènement joyeux mais très douloureux pour le porte monnaie... Alors anticipez les cadeaux de noël grâce à ce challenge!",
+      "author": "Société Générale",
+      "category": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2FchristmasSaving.jpg?alt=media&token=31ec130f-120e-489a-9c23-7e51ca672318",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "pocket-money",
+      "title": "Argent de poche",
+      "body": "Récompensez les bonnes actions par un don d'argent de poche qui profitera à vos enfants et les incitera à rester sages.",
+      "author": "Société Générale",
+      "category": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2FkidsMoney.png?alt=media&token=3e37a475-c1cc-4e30-9f10-21bf6db9608d",
+      "suggestions": [
+        "aute irure dolor in",
+        "sed do eiusmod tempor incididunt",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "swear-words",
+      "title": "Non aux gros mots!",
+      "body": "La règle est très simple et la même pour tout le monde : un gros mot = un don dans la cagnotte!",
+      "author": "Société Générale",
+      "category": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2Fno-swear-words.jpg?alt=media&token=94c7c0b3-8fad-4e82-a2dd-d86b8a8b112f",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "new-car",
+      "title": "Nouvelle voiture",
+      "body": "Economisez pour changer de voiture et faire plaisir à toute la famille.",
+      "author": "Société Générale",
+      "category": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2Ft%C3%A9l%C3%A9chargement.jpg?alt=media&token=97975408-ff9a-45c0-854d-580b26c30d3d",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "vacation-challenge",
+      "title": "Les vacances",
+      "body": "Un challenge pour préparer les prochaines vacances entre amis ou en famille",
+      "author": "Société Générale",
+      "category": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-native-hackathon-ef2fb.appspot.com/o/challenges%2FvacationChallenge.png?alt=media&token=14b85d1a-d4d2-410c-bc26-dd27736c9e37",
+      "suggestions": [
+        "sed do eiusmod tempor incididunt",
+        "aute irure dolor in",
+        "do eiusmod tempor",
+        "uis aute irure dolor in",
+        "doloremque laudantium",
+        "cupidatat non proident"
+      ]
+    }
+  ]
+}
