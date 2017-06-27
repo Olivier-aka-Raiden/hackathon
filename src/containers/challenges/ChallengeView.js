@@ -50,7 +50,6 @@ class ChallengeView extends Component {
   rendersuggestions = (suggestions) => {
     const jsx = [];
     let iterator = 1;
-    console.log(YOLO);
 
     suggestions.forEach((item) => {
       jsx.push(

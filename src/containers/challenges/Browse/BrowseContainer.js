@@ -17,5 +17,5 @@ const mapStateToProps = state => ({
 // Any actions to map to the component?
 const mapDispatchToProps = {
 };
-// TODO: Revoir si Render est juste ici ou pas?
+
 export default connect(mapStateToProps, mapDispatchToProps)(ChallengeTabsRender);

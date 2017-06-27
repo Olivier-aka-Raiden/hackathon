@@ -38,7 +38,6 @@ class ChallengeListing extends Component {
 
   static defaultProps = {
     challengeList: [],
-    //challengeType :'personal'
   }
 
   state = {
@@ -46,7 +45,7 @@ class ChallengeListing extends Component {
     challengeList: [],
   }
 
-  componentDidMount = () => this.getThisChallengeTypeChallengeList(this.props.chalengeList);
+  componentDidMount = () => this.getThisChallengeTypeChallengeList(this.props.challengeList);
   componentWillReceiveProps = props => this.getThisChallengeTypeChallengeList(props.challengeList);
 
   /**
@@ -77,7 +76,7 @@ class ChallengeListing extends Component {
     if (this.state.loading) return <Loading />;
 
     return (
-      <ChallengeListing
+      <ChallengeListingRender
         challengeList={this.state.challengeList}
         reFetch={this.fetchChallengeList}
       />
