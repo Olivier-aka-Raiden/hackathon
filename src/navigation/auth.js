@@ -16,6 +16,7 @@ import LoginForm from '@containers/auth/Forms/LoginContainer';
 import SignUpForm from '@containers/auth/Forms/SignUpContainer';
 import ResetPasswordForm from '@containers/auth/Forms/ResetPasswordContainer';
 import UpdateProfileForm from '@containers/auth/Forms/UpdateProfileContainer';
+import SignUpWithFacebookForm from '@containers/auth/Forms/SignUpWithFacebook'
 
 /* Routes ==================================================================== */
 const scenes = (
@@ -34,6 +35,14 @@ const scenes = (
       clone
       component={LoginForm}
       analyticsDesc={'Login'}
+    />
+    <Scene
+      {...AppConfig.navbarProps}
+      key={'signUpWithFacebook'}
+      title={'Sign Up With Facebook'}
+      clone
+      component={SignUpWithFacebookForm}
+      analyticsDesc={'Sign Up Fb'}
     />
     <Scene
       {...AppConfig.navbarProps}

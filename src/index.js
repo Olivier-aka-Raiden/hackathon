@@ -21,6 +21,9 @@ import Analytics from '@lib/analytics';
 // All redux reducers (rolled into one mega-reducer)
 import rootReducer from '@redux/index';
 
+// ignore timer warning
+console.ignoredYellowBox = ['Setting a timer'];
+
 // Connect RNRF with Redux
 const RouterWithRedux = connect()(Router);
 

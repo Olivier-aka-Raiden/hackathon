@@ -20,6 +20,17 @@ import { AppStyles, AppSizes, AppColors } from '@theme/';
 // Components
 import { Spacer, Text, Button } from '@ui/';
 
+/* state ===================================================================== */
+const state = {
+  user: {
+    firstName: '',
+    lastName: '',
+    email: '',
+    nickname: '',
+    id: '',
+  }
+};
+
 /* Styles ==================================================================== */
 const styles = StyleSheet.create({
   background: {
@@ -35,6 +46,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
   },
 });
+
 
 /* Component ==================================================================== */
 class Authenticate extends Component {
@@ -87,7 +99,7 @@ class Authenticate extends Component {
             title={'Skip'}
             onPress={Actions.app}
             raised={false}
-            backgroundColor='#5a5a5a'
+            backgroundColor={'#5a5a5a'}
           />
         </View>
         <View style={[AppStyles.flex1]} />
